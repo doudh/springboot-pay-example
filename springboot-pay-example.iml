@@ -89,7 +89,7 @@
     <orderEntry type="module-library">
       <library name="Maven: com.alipay:alipay-sdk-java:1.0.0">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/alipay-sdk-java-3.4.27.ALL.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/alipay-sdk-java-3.3.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

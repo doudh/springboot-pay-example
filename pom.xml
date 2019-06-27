@@ -46,7 +46,7 @@
             <groupId>com.alipay</groupId>
             <artifactId>alipay-sdk-java</artifactId>
             <version>1.0.0</version>
-            <systemPath>${lib.path}/alipay-sdk-java-3.4.27.ALL.jar</systemPath>
+            <systemPath>${lib.path}/alipay-sdk-java-3.3.0.jar</systemPath>
             <scope>system</scope>
         </dependency>
         <dependency>
