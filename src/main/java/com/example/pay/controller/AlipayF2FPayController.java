@@ -234,7 +234,8 @@ public class AlipayF2FPayController {
                 log.info("支付宝预下单成功: )");
 
                 AlipayTradePrecreateResponse res = result.getResponse();
-                File file = ResourceUtils.getFile(ResourceUtils.CLASSPATH_URL_PREFIX + "/images");
+//                File file = ResourceUtils.getFile(ResourceUtils.CLASSPATH_URL_PREFIX + "images/");
+                File file = new File(new File("").getCanonicalPath()+"/images");
                 if (!file.exists()) {
                     file.mkdirs();
                 }

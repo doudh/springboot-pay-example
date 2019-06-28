@@ -6,7 +6,7 @@
 
 - AlipayController 支付宝-通用接口(包含对账)
 - AlipayF2FPayController 支付宝-当面付
-- AlipayPagePayController 支付宝-电脑网站支付
+- AlipayPagePayController 支付宝-电脑网站支付 
 - AlipayWAPPayController 支付宝-手机网站支付
 
 微信支付接口:
@@ -38,4 +38,11 @@
 - [Spring Boot入门教程(四十一):微信支付集成-扫码支付](https://blog.csdn.net/vbirdbest/article/details/80723991)
 - [Spring Boot入门教程(四十二):微信支付集成-H5支付](https://blog.csdn.net/vbirdbest/article/details/80726616)
 
+
+
+学习备注：
+支付宝：
+   手机网页和电脑网页只是请求对象不一样  电脑：AlipayTradePagePayRequest   手机：AlipayTradeWapPayRequest
+      
+   AlipayF2FPayController   237行路径问题
 

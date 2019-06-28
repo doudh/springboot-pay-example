@@ -56,13 +56,13 @@ public class AlipayWAPPayController {
         AlipayTradeWapPayModel model = new AlipayTradeWapPayModel();
         model.setOutTradeNo(UUID.randomUUID().toString());
         model.setSubject("支付测试");
-        model.setTotalAmount("0.01");
-        model.setBody("支付测试，共0.01元");
+        model.setTotalAmount("1.00");
+        model.setBody("支付测试，共1.00元");
         model.setTimeoutExpress("5m");
         model.setProductCode(productCode);
 
         AlipayTradeWapPayRequest wapPayRequest =new AlipayTradeWapPayRequest();
-        wapPayRequest.setReturnUrl("http://yxep7y.natappfree.cc/alipay/wap/returnUrl");
+        wapPayRequest.setReturnUrl("http://doudh.wicp.vip/alipay/wap/returnUrl");
         wapPayRequest.setNotifyUrl(alipayProperties.getNotifyUrl());
         wapPayRequest.setBizModel(model);
 

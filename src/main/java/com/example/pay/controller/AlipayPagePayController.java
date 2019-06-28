@@ -51,7 +51,7 @@ public class AlipayPagePayController {
         model.setProductCode(productCode);
 
         AlipayTradePagePayRequest pagePayRequest =new AlipayTradePagePayRequest();
-        pagePayRequest.setReturnUrl("http://s9v2cw.natappfree.cc/alipay/page/returnUrl");
+        pagePayRequest.setReturnUrl("http://doudh.wicp.vip/alipay/page/returnUrl");
         pagePayRequest.setNotifyUrl(alipayProperties.getNotifyUrl());
         pagePayRequest.setBizModel(model);
 
